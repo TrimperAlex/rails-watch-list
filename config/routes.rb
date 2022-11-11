@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # get 'lists', to: 'lists#index'
+  # get 'lists/:id', to: 'lists#show', as: :list
+  # get 'lists/new', to: 'list#new', as: :new_list
+  # post 'lists', to: 'lists#create'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # resources :lists do
+  #   collection do
+  #     get :list
+  #   end
+
+  #   member do
+  #     get :movie
+  #   end
+  # end
+
 end
