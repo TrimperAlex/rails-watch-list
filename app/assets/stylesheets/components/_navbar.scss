@@ -1,6 +1,8 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  margin: 0, auto;
+  justify-content: center;
+  background: maroon;
+  border: 5px double goldenrod;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +11,14 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+  justify-content: center;
+
 }
+
+li {
+  text-decoration: none;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);}
