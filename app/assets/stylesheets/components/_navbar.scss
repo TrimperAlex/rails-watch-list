@@ -15,10 +15,13 @@
 
 }
 
-li {
+.nav-item {
   text-decoration: none;
-  color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
   font-weight: 700;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);}
+
+  .nav-item :hover {
+    color: white;
+  }
