@@ -20,8 +20,10 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
   font-weight: 700;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);}
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: auto;
+}
 
-  .nav-item :hover {
-    color: white;
-  }
+.nav-item :hover {
+  color: white;
+}
